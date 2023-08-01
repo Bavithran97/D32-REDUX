@@ -1,0 +1,269 @@
+/* App.css */
+
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+header .image {
+  margin-right: 1rem;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header ul li {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+header ul li:hover {
+  text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+/* Page styles */
+.page-container {
+  margin: 2rem;
+}
+
+.page-container .card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cart styles */
+.cart-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-container .cart-items {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.cart-container .total {
+  flex: 1;
+  padding: 1rem;
+}
+
+.cart-container .total .card {
+  box-shadow: none;
+}
+
+/* Buttons */
+.btn {
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-outline-dark {
+  color: #343a40;
+  border: 1px solid #343a40;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.btn-outline-dark:hover {
+  background-color: #343a40;
+  color: #fff;
+}
+
+/* Images */
+img.card-img-top {
+  object-fit: cover;
+}
+
+/* Home page styles */
+.bg-dark {
+  background-color: #333;
+}
+
+.display-4 {
+  font-size: 3rem;
+}
+
+.lead {
+  font-size: 1.5rem;
+}
+
+.text-white {
+  color: #fff;
+}
+
+/* CartBox styles */
+.card.mb-2 {
+  margin-bottom: 1rem;
+}
+
+/* CartBox button styles */
+.btn-primary,
+.btn-danger {
+  width: 100%;
+}
+
+/* CartBox quantity styles */
+.btn-primary {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+/* CartBox quantity text styles */
+.text-center {
+  margin-bottom: 1rem;
+}
+
+/* Cart page styles */
+.container-fluid {
+  margin-top: 2rem;
+}
+
+/* Cart page navbar styles */
+.navbar {
+  margin-bottom: 2rem;
+}
+
+/* Cart page logo styles */
+.image {
+  width: 80px;
+}
+
+/* Cart page cart badge styles */
+.badge {
+  margin-left: 0.5rem;
+}
+
+/* Cart page checkout button styles */
+.btn-primary {
+  margin-top: 1rem;
+}
+
+/* Cart page empty cart image styles */
+.container {
+  margin-top: 2rem;
+}
+
+/* Cart page empty cart image */
+img {
+  width: 100%;
+}
+
+/* Home page header styles */
+.text-center {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Home page card styles */
+.card {
+  width: 18rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+}
+
+/* Home page card title styles */
+h5 {
+  font-weight: bold;
+}
+
+/* Home page footer styles */
+.py-5 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Home page footer text styles */
+.m-0 {
+  margin: 0;
+}
+
+/* Error page styles */
+.container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+/* Error page image styles */
+.error-image {
+  width: 400px;
+}
+
+/* Error page button styles */
+.btn-primary {
+  margin-top: 2rem;
+}
+
+/* No items image styles */
+.no-items-image {
+  width: 400px;
+  margin: 2rem auto;
+}
+
+/* No items text styles */
+.text-center {
+  margin-top: 1rem;
+}
+
+/* No items button styles */
+.btn-primary {
+  margin-top: 1rem;
+}
+/* App.css */
+
+/* ... Other CSS Rules ... */
+
+/* Header styles */
+header {
+  background-color: #f8f9fa; /* Change to light gray */
+  color: #007bff;
+  padding: 1rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f8f9fa; /* Change to light gray */
+  color: #db2020;
+  padding: 1rem;
+}
+
+/* ... Other CSS Rules ... */
